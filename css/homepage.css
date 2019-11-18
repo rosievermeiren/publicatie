@@ -1,0 +1,49 @@
+/*
+#homesection{
+  background-image: url("../images/Kostuum.jpg");
+  min-height: 100vh;
+  background-position: 70vh;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+}
+*/
+
+
+
+#homesection .navbar{paddin-top:2.2vh;padding-bottom:2.2vh;}
+
+#Kostuum{
+  margin-top: 100px;
+  z-index: -1;
+  position: fixed;
+  padding-bottom: 10rem;
+}
+
+body
+{
+
+}
+
+h1
+{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 3px 2px white;
+}
+
+p
+{
+  z-index: auto;
+  position: relative;
+  text-shadow: 5px 5px 20px white;
+}
+
+h5
+{
+  margin-top: 10px;
+  margin-bottom: 300px;
+  text-shadow: 5px 5px 20px white ;
+}
