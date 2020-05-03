@@ -11,6 +11,12 @@
   <link href="css/navbar.css" rel="stylesheet">
   <link href="css/mobile.css" rel="stylesheet">
   <link href="css/gallery2.css" rel="stylesheet">
+  <link href="css/bootstrap-lightbox.css" rel="stylesheet">
+  <script src="js/bootstrap-lightbox.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
 </head>
 <body>
   <!-- Start van de section -->
@@ -98,7 +104,14 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/popper.min.js"></script>
+    <script>
+    $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+    </script>
+
     <script src="js/bootstrap-4.0.0.js"></script>
-    <script src="js/gallery2.js"></script>
+
   </body>
   </html>
